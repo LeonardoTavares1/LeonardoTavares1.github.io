@@ -5,7 +5,9 @@ const Tarefa = () => {
     return ( 
         <>
             <div className='main'>
-                <h1>TESTE</h1>
+                <input type="text" value="Digite seu nome"></input>
+                <button>Sim</button>
+                <button>Não</button>
             </div>
         </>
      );
@@ -14,8 +16,6 @@ const Tarefa = () => {
 const Imagem = () => {
     return ( 
         <>
-            <h1>TESTE2</h1>
-            <div className='imagem'></div>
         </>
      );
 }
