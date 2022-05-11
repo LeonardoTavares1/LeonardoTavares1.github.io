@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 90%;
+    margin-top: 2%;
+   /* background-image: url('https://img.freepik.com/vetores-gratis/fundo-preto-com-malha-de-baixo-poli-vermelho-brilhante_1017-20215.jpg?t=st=1652217641~exp=1652218241~hmac=85d61c73d3c21c93070ce0d007f2c81a25dc9a442a97cbcbeef6b35a9a6c0991&w=826');
+*/
+}   
+
+.imagem{
+    background-image: url('/src/components/IMAGENS/img1.jpg');
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+}

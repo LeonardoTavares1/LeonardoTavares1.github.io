@@ -9,17 +9,15 @@ No caso abaixo vemos como importar diferentes componentes React vindos de um mes
 */
 import Props_2 from '../components/Props_2';
 import { Props_estruturadas } from '../components/Props_2';
+import Tarefa, { Imagem } from '../components/tarefa';
 
 
 //Neste arquvio esta a demonstração da ultilização de varios components react dentro de uma mesma pagina.
 const App = () => {
     return ( 
         <>
-            <Basico />
-            <Props name="Matheus"/>
-            <Props_2 name="Bruno" idade="22" cidade="Bebedouro" estado="SP"/>
-            <Props_estruturadas name="Bruno" idade="22" cidade="Bebedouro" estado="SP"/>
-            <Css />
+           <Tarefa />
+           <Imagem />
         </>
      );
 }
